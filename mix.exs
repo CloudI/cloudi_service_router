@@ -6,7 +6,7 @@ defmodule CloudIServiceRouter do
 
   def project do
     [app: :cloudi_service_router,
-     version: "1.8.0",
+     version: "2.0.0",
      language: :erlang,
      erlc_options: [
        :debug_info,
@@ -29,7 +29,7 @@ defmodule CloudIServiceRouter do
   end
 
   defp deps do
-    [{:cloudi_core, "~> 1.8.0"}]
+    [{:cloudi_core, "~> 2.0.0"}]
   end
 
   defp description do

@@ -14,7 +14,7 @@
    <h3><a name="CloudI_Router_Service_SSH_Server">CloudI Router Service SSH Server</a></h3>.
 <p>Copyright © 2018-2020 Michael Truog</p>
 
-<p><b>Version:</b> 2.0.1 Nov 26 2020 19:52:42
+<p><b>Version:</b> 2.0.1 May 27 2021 02:29:17
   ------------------------------------------------------------------------</p>
 <p><b>Behaviours:</b> <a href="ssh_daemon_channel.html"><tt>ssh_daemon_channel</tt></a>.</p>
 <p><b>Authors:</b> Michael Truog (<a href="mailto:mjtruog at protonmail dot com"><tt>mjtruog at protonmail dot com</tt></a>).</p>
@@ -51,56 +51,67 @@
 <h3 class="function"><a name="config_compression-1">config_compression/1</a></h3>
 <div class="spec">
 <p><tt>config_compression(Ssh_server::#ssh_server{config_compression = 0..9, config_inet = inet | inet6 | undefined, config_port = pos_integer(), config_system_dir = string(), config_user_dir = string(), process = undefined | <a href="ssh.html#type-daemon_ref">ssh:daemon_ref()</a>} | undefined) -&gt; 0..9</tt><br></p>
+<p> </p>
 </div>
 
 <h3 class="function"><a name="config_inet-1">config_inet/1</a></h3>
 <div class="spec">
 <p><tt>config_inet(Ssh_server::#ssh_server{config_compression = 0..9, config_inet = inet | inet6 | undefined, config_port = pos_integer(), config_system_dir = string(), config_user_dir = string(), process = undefined | <a href="ssh.html#type-daemon_ref">ssh:daemon_ref()</a>} | undefined) -&gt; inet | inet6 | undefined</tt><br></p>
+<p> </p>
 </div>
 
 <h3 class="function"><a name="config_port-1">config_port/1</a></h3>
 <div class="spec">
 <p><tt>config_port(Ssh_server::#ssh_server{config_compression = 0..9, config_inet = inet | inet6 | undefined, config_port = pos_integer(), config_system_dir = string(), config_user_dir = string(), process = undefined | <a href="ssh.html#type-daemon_ref">ssh:daemon_ref()</a>} | undefined) -&gt; pos_integer()</tt><br></p>
+<p> </p>
 </div>
 
 <h3 class="function"><a name="config_system_dir-1">config_system_dir/1</a></h3>
 <div class="spec">
 <p><tt>config_system_dir(Ssh_server::#ssh_server{config_compression = 0..9, config_inet = inet | inet6 | undefined, config_port = pos_integer(), config_system_dir = string(), config_user_dir = string(), process = undefined | <a href="ssh.html#type-daemon_ref">ssh:daemon_ref()</a>} | undefined) -&gt; string() | undefined</tt><br></p>
+<p> </p>
 </div>
 
 <h3 class="function"><a name="config_user_dir-1">config_user_dir/1</a></h3>
 <div class="spec">
 <p><tt>config_user_dir(Ssh_server::#ssh_server{config_compression = 0..9, config_inet = inet | inet6 | undefined, config_port = pos_integer(), config_system_dir = string(), config_user_dir = string(), process = undefined | <a href="ssh.html#type-daemon_ref">ssh:daemon_ref()</a>} | undefined) -&gt; string() | undefined</tt><br></p>
+<p> </p>
 </div>
 
 <h3 class="function"><a name="destroy-1">destroy/1</a></h3>
 <div class="spec">
 <p><tt>destroy(Ssh_server::<a href="#type-state">state()</a> | undefined) -&gt; ok</tt><br></p>
+<p> </p>
 </div>
 
 <h3 class="function"><a name="handle_msg-2">handle_msg/2</a></h3>
 <div class="spec">
 <p><tt>handle_msg(X1, State) -&gt; any()</tt></p>
+<p> </p>
 </div>
 
 <h3 class="function"><a name="handle_ssh_msg-2">handle_ssh_msg/2</a></h3>
 <div class="spec">
 <p><tt>handle_ssh_msg(X1, Ssh_server_connection) -&gt; any()</tt></p>
+<p> </p>
 </div>
 
 <h3 class="function"><a name="init-1">init/1</a></h3>
 <div class="spec">
 <p><tt>init(X1) -&gt; any()</tt></p>
+<p> </p>
 </div>
 
 <h3 class="function"><a name="new-3">new/3</a></h3>
 <div class="spec">
 <p><tt>new(Options::<a href="#type-options">options()</a> | undefined, Environment::<a href="deps/cloudi_core/doc/cloudi_environment.html#type-lookup">cloudi_environment:lookup()</a>, Dispatcher::<a href="deps/cloudi_core/doc/cloudi_service.html#type-dispatcher">cloudi_service:dispatcher()</a>) -&gt; <a href="#type-state">state()</a> | undefined</tt><br></p>
+<p> </p>
 </div>
 
 <h3 class="function"><a name="terminate-2">terminate/2</a></h3>
 <div class="spec">
 <p><tt>terminate(Reason, State) -&gt; any()</tt></p>
+<p> </p>
 </div>
 <hr>
 

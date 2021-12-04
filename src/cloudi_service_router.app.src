@@ -3,7 +3,7 @@
 
 {application, cloudi_service_router, 
   [{description, "CloudI Router Service"},
-   {vsn, "2.0.3"},
+   {vsn, "2.0.4"},
    {modules, [
         cloudi_service_router,
         cloudi_service_router_client,

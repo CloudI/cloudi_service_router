@@ -14,7 +14,7 @@
    <h3><a name="CloudI_Router_Service_SSH_Server">CloudI Router Service SSH Server</a></h3>.
 <p>Copyright © 2018-2020 Michael Truog</p>
 
-<p><b>Version:</b> 2.0.1 May 27 2021 02:29:17
+<p><b>Version:</b> 2.0.1 Oct 12 2022 00:40:19
   ------------------------------------------------------------------------</p>
 <p><b>Behaviours:</b> <a href="ssh_daemon_channel.html"><tt>ssh_daemon_channel</tt></a>.</p>
 <p><b>Authors:</b> Michael Truog (<a href="mailto:mjtruog at protonmail dot com"><tt>mjtruog at protonmail dot com</tt></a>).</p>
@@ -25,11 +25,11 @@
 <h2><a name="types">Data Types</a></h2>
 
 <h3 class="typedecl"><a name="type-options">options()</a></h3>
-<p><tt>options() = [{ip, <a href="inet.html#type-ip_address">inet:ip_address()</a> | any | loopback} | {port, pos_integer()} | {inet, inet | inet6 | undefined} | {user_dir, string()} | {system_dir, string()}]</tt></p>
+<p><tt>options() = [{ip, <a href="/home/george/organized/work/financial_helper_apps/mc2_all-patterns/intraday_system/cloudi_org/kernel/doc/inet.html#type-ip_address">inet:ip_address()</a> | any | loopback} | {port, pos_integer()} | {inet, inet | inet6 | undefined} | {user_dir, string()} | {system_dir, string()}]</tt></p>
 
 
 <h3 class="typedecl"><a name="type-state">state()</a></h3>
-<p><tt>state() = #ssh_server{config_compression = 0..9, config_inet = inet | inet6 | undefined, config_port = pos_integer(), config_system_dir = string(), config_user_dir = string(), process = undefined | <a href="ssh.html#type-daemon_ref">ssh:daemon_ref()</a>}</tt></p>
+<p><tt>state() = #ssh_server{config_compression = 0..9, config_inet = inet | inet6 | undefined, config_port = pos_integer(), config_system_dir = string(), config_user_dir = string(), process = undefined | <a href="/home/george/organized/work/financial_helper_apps/mc2_all-patterns/intraday_system/cloudi_org/ssh/doc/ssh.html#type-daemon_ref">ssh:daemon_ref()</a>}</tt></p>
 
 
 <h2><a name="index">Function Index</a></h2>
@@ -50,31 +50,31 @@
 
 <h3 class="function"><a name="config_compression-1">config_compression/1</a></h3>
 <div class="spec">
-<p><tt>config_compression(Ssh_server::#ssh_server{config_compression = 0..9, config_inet = inet | inet6 | undefined, config_port = pos_integer(), config_system_dir = string(), config_user_dir = string(), process = undefined | <a href="ssh.html#type-daemon_ref">ssh:daemon_ref()</a>} | undefined) -&gt; 0..9</tt><br></p>
+<p><tt>config_compression(Ssh_server::#ssh_server{config_compression = 0..9, config_inet = inet | inet6 | undefined, config_port = pos_integer(), config_system_dir = string(), config_user_dir = string(), process = undefined | <a href="/home/george/organized/work/financial_helper_apps/mc2_all-patterns/intraday_system/cloudi_org/ssh/doc/ssh.html#type-daemon_ref">ssh:daemon_ref()</a>} | undefined) -&gt; 0..9</tt><br></p>
 <p> </p>
 </div>
 
 <h3 class="function"><a name="config_inet-1">config_inet/1</a></h3>
 <div class="spec">
-<p><tt>config_inet(Ssh_server::#ssh_server{config_compression = 0..9, config_inet = inet | inet6 | undefined, config_port = pos_integer(), config_system_dir = string(), config_user_dir = string(), process = undefined | <a href="ssh.html#type-daemon_ref">ssh:daemon_ref()</a>} | undefined) -&gt; inet | inet6 | undefined</tt><br></p>
+<p><tt>config_inet(Ssh_server::#ssh_server{config_compression = 0..9, config_inet = inet | inet6 | undefined, config_port = pos_integer(), config_system_dir = string(), config_user_dir = string(), process = undefined | <a href="/home/george/organized/work/financial_helper_apps/mc2_all-patterns/intraday_system/cloudi_org/ssh/doc/ssh.html#type-daemon_ref">ssh:daemon_ref()</a>} | undefined) -&gt; inet | inet6 | undefined</tt><br></p>
 <p> </p>
 </div>
 
 <h3 class="function"><a name="config_port-1">config_port/1</a></h3>
 <div class="spec">
-<p><tt>config_port(Ssh_server::#ssh_server{config_compression = 0..9, config_inet = inet | inet6 | undefined, config_port = pos_integer(), config_system_dir = string(), config_user_dir = string(), process = undefined | <a href="ssh.html#type-daemon_ref">ssh:daemon_ref()</a>} | undefined) -&gt; pos_integer()</tt><br></p>
+<p><tt>config_port(Ssh_server::#ssh_server{config_compression = 0..9, config_inet = inet | inet6 | undefined, config_port = pos_integer(), config_system_dir = string(), config_user_dir = string(), process = undefined | <a href="/home/george/organized/work/financial_helper_apps/mc2_all-patterns/intraday_system/cloudi_org/ssh/doc/ssh.html#type-daemon_ref">ssh:daemon_ref()</a>} | undefined) -&gt; pos_integer()</tt><br></p>
 <p> </p>
 </div>
 
 <h3 class="function"><a name="config_system_dir-1">config_system_dir/1</a></h3>
 <div class="spec">
-<p><tt>config_system_dir(Ssh_server::#ssh_server{config_compression = 0..9, config_inet = inet | inet6 | undefined, config_port = pos_integer(), config_system_dir = string(), config_user_dir = string(), process = undefined | <a href="ssh.html#type-daemon_ref">ssh:daemon_ref()</a>} | undefined) -&gt; string() | undefined</tt><br></p>
+<p><tt>config_system_dir(Ssh_server::#ssh_server{config_compression = 0..9, config_inet = inet | inet6 | undefined, config_port = pos_integer(), config_system_dir = string(), config_user_dir = string(), process = undefined | <a href="/home/george/organized/work/financial_helper_apps/mc2_all-patterns/intraday_system/cloudi_org/ssh/doc/ssh.html#type-daemon_ref">ssh:daemon_ref()</a>} | undefined) -&gt; string() | undefined</tt><br></p>
 <p> </p>
 </div>
 
 <h3 class="function"><a name="config_user_dir-1">config_user_dir/1</a></h3>
 <div class="spec">
-<p><tt>config_user_dir(Ssh_server::#ssh_server{config_compression = 0..9, config_inet = inet | inet6 | undefined, config_port = pos_integer(), config_system_dir = string(), config_user_dir = string(), process = undefined | <a href="ssh.html#type-daemon_ref">ssh:daemon_ref()</a>} | undefined) -&gt; string() | undefined</tt><br></p>
+<p><tt>config_user_dir(Ssh_server::#ssh_server{config_compression = 0..9, config_inet = inet | inet6 | undefined, config_port = pos_integer(), config_system_dir = string(), config_user_dir = string(), process = undefined | <a href="/home/george/organized/work/financial_helper_apps/mc2_all-patterns/intraday_system/cloudi_org/ssh/doc/ssh.html#type-daemon_ref">ssh:daemon_ref()</a>} | undefined) -&gt; string() | undefined</tt><br></p>
 <p> </p>
 </div>
 

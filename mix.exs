@@ -6,7 +6,7 @@ defmodule CloudIServiceRouter do
 
   def project do
     [app: :cloudi_service_router,
-     version: "2.0.5",
+     version: "2.0.6",
      language: :erlang,
      erlc_options: [
        :deterministic,
@@ -20,8 +20,17 @@ defmodule CloudIServiceRouter do
      deps: deps()]
   end
 
+  def application do
+    [applications: [
+       :quickrand,
+       :trie,
+       :cloudi_core],
+     included_applications: [
+       :ssh]]
+  end
+
   defp deps do
-    [{:cloudi_core, ">= 2.0.5"}]
+    [{:cloudi_core, ">= 2.0.6"}]
   end
 
   defp description do
